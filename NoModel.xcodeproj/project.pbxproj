@@ -15,6 +15,9 @@
 		406D7F621CE0C2EC00274030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406D7F601CE0C2EC00274030 /* LaunchScreen.storyboard */; };
 		406D7F6D1CE0C2EC00274030 /* NoModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D7F6C1CE0C2EC00274030 /* NoModelTests.m */; };
 		406D7F781CE0C2EC00274030 /* NoModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D7F771CE0C2EC00274030 /* NoModelUITests.m */; };
+		406D7F871CE0C32400274030 /* NoModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D7F861CE0C32400274030 /* NoModelTableViewCell.m */; };
+		406D7F8A1CE0C32F00274030 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D7F891CE0C32F00274030 /* User.m */; };
+		406D7F8D1CE0C36B00274030 /* NSObject+PropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D7F8C1CE0C36B00274030 /* NSObject+PropertyList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		406D7F731CE0C2EC00274030 /* NoModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		406D7F771CE0C2EC00274030 /* NoModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoModelUITests.m; sourceTree = "<group>"; };
 		406D7F791CE0C2EC00274030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		406D7F851CE0C32400274030 /* NoModelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoModelTableViewCell.h; sourceTree = "<group>"; };
+		406D7F861CE0C32400274030 /* NoModelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoModelTableViewCell.m; sourceTree = "<group>"; };
+		406D7F881CE0C32F00274030 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		406D7F891CE0C32F00274030 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		406D7F8B1CE0C36B00274030 /* NSObject+PropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertyList.h"; sourceTree = "<group>"; };
+		406D7F8C1CE0C36B00274030 /* NSObject+PropertyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertyList.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		406D7F511CE0C2EB00274030 /* NoModel */ = {
 			isa = PBXGroup;
 			children = (
+				406D7F8E1CE0C73D00274030 /* NoModelView */,
 				406D7F551CE0C2EB00274030 /* AppDelegate.h */,
 				406D7F561CE0C2EB00274030 /* AppDelegate.m */,
 				406D7F581CE0C2EB00274030 /* ViewController.h */,
@@ -138,6 +148,19 @@
 				406D7F791CE0C2EC00274030 /* Info.plist */,
 			);
 			path = NoModelUITests;
+			sourceTree = "<group>";
+		};
+		406D7F8E1CE0C73D00274030 /* NoModelView */ = {
+			isa = PBXGroup;
+			children = (
+				406D7F851CE0C32400274030 /* NoModelTableViewCell.h */,
+				406D7F861CE0C32400274030 /* NoModelTableViewCell.m */,
+				406D7F881CE0C32F00274030 /* User.h */,
+				406D7F891CE0C32F00274030 /* User.m */,
+				406D7F8B1CE0C36B00274030 /* NSObject+PropertyList.h */,
+				406D7F8C1CE0C36B00274030 /* NSObject+PropertyList.m */,
+			);
+			name = NoModelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406D7F8A1CE0C32F00274030 /* User.m in Sources */,
 				406D7F5A1CE0C2EB00274030 /* ViewController.m in Sources */,
 				406D7F571CE0C2EB00274030 /* AppDelegate.m in Sources */,
+				406D7F871CE0C32400274030 /* NoModelTableViewCell.m in Sources */,
+				406D7F8D1CE0C36B00274030 /* NSObject+PropertyList.m in Sources */,
 				406D7F541CE0C2EB00274030 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
